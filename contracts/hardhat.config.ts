@@ -6,7 +6,7 @@ const config: HardhatUserConfig = {
   
   networks: {
 
-    polygon_amoy :{
+    bsc_testnet :{
       url: "https://rpc.ankr.com/bsc_testnet_chapel",
       chainId: 97,
       accounts: [PRIVATE_KEY]
